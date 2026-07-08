@@ -1,0 +1,21 @@
+# Deployment
+
+## Platform
+
+GitHub Pages
+
+## URL
+
+https://tuananh-din.github.io/planet-graduation-template/
+
+## Deploy Command
+
+Push changes to the `main` branch. GitHub Pages serves the repository root.
+
+## Environment Variables
+
+None.
+
+## Rollback
+
+Revert the latest commit and push to `main`.

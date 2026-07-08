@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Món quà tốt nghiệp với hành tinh 3D và ảnh kỷ niệm bay quanh vũ trụ."
+    />
+    <title>Chúc bạn tốt nghiệp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <main id="app-shell">
+      <canvas id="space-canvas" aria-label="Vũ trụ ảnh kỷ niệm"></canvas>
+
+      <section id="entry-modal" class="entry-modal" aria-labelledby="entry-title">
+        <div class="entry-panel">
+          <p class="entry-kicker">A little universe for you</p>
+          <h1 id="entry-title">Chúc bạn tốt nghiệp</h1>
+          <p class="entry-copy">
+            Mong chặng đường mới của bạn thật rực rỡ, bình an, và đầy những điều đáng nhớ.
+          </p>
+          <button id="entry-button" class="primary-button" type="button">
+            Mở vũ trụ
+          </button>
+        </div>
+      </section>
+
+      <div class="top-controls" aria-label="Điều khiển">
+        <button id="audio-toggle" class="icon-button" type="button" aria-label="Bật tắt nhạc">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 9v6h4l5 4V5L8 9H4z" />
+            <path d="M16 8.5a5 5 0 0 1 0 7" />
+            <path d="M18.5 6a8 8 0 0 1 0 12" />
+          </svg>
+        </button>
+        <button
+          id="fullscreen-toggle"
+          class="icon-button"
+          type="button"
+          aria-label="Toàn màn hình"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 9V4h5" />
+            <path d="M20 9V4h-5" />
+            <path d="M4 15v5h5" />
+            <path d="M20 15v5h-5" />
+          </svg>
+        </button>
+      </div>
+
+      <div id="caption" class="caption" aria-live="polite">
+        <span>Chúc mừng tốt nghiệp</span>
+        <strong>Tương lai thật sáng nhé</strong>
+      </div>
+
+      <audio id="bg-music" preload="auto" loop>
+        <source src="assets/audio/nhac.mp3" type="audio/mpeg" />
+      </audio>
+    </main>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
