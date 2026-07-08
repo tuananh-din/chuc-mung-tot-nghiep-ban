@@ -6,7 +6,7 @@ GitHub Pages
 
 ## URL
 
-https://tuananh-din.github.io/planet-graduation-template/
+https://tuananh-din.github.io/chuc-mung-tot-nghiep-ban-nhung/
 
 ## Deploy Command
 
